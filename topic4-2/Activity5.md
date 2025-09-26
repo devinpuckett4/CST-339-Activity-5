@@ -33,7 +33,7 @@ This is my service returning a real order by id. I went to localhost:8080/servic
 ---
 
 ## - Wrong ID
-![Build success](h2console.png)
+![Build success](localerror.png)
 
 This is me testing the getorder endpoint with a fake id full of zeros. The service responds with HTTP 404 Not Found and the page says this localhost page can’t be found. That means there is no order with that id and the endpoint is correctly returning a not found result. This confirms my error handling works and the service only returns data when I use a valid id.
 ---
